@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>アンケート分析ツール</title>
+
+    <!-- PWA: Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- PWA: Theme color -->
+    <meta name="theme-color" content="#AA6C39" />
+
+    <!-- PWA: iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="hello" />
+    <link rel="apple-touch-icon" href="image192.png" />
+
+    <!-- PWA: Android/Chrome -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/png" sizes="192x192" href="image192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="image512.png" />
+
+    <!-- Optional: avoid phone number auto-detection on iOS -->
+    <meta name="format-detection" content="telephone=no" />
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <iframe
+      src="https://script.google.com/a/macros/iica.jp/s/AKfycbwxNIeo1UGt3UYhqwF5Ml3Nk2VIz-gU1QCCBpsVPVBOyIiJebLxdcKYqqcDXx6FEreY/exec"
+      title="GAS Webアプリ"
+      referrerpolicy="no-referrer-when-downgrade"
+      allow="clipboard-read; clipboard-write"
+    ></iframe>
+  </body>
+</html>
